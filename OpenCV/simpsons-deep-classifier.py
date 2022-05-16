@@ -58,8 +58,7 @@ train = caer.preprocess_from_dir(charac_loc, characters,
                                  channels = channels, IMG_SIZE= image_size, 
                                   isShuffle= True)
 
-# %%
-len(train)
+
 
 # %%
 plt.figure(figsize=(80,80))
